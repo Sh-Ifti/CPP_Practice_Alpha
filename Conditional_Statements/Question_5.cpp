@@ -19,7 +19,7 @@ int main()
     n = n / 10;          // Getting the 2 digit number
     int digit2 = n % 10; // Storing the tenth place digit
     n = n / 10;          // Getting the 1 digit number which also the hundredth place digit
-    int digit3 = n;      // Storing the hundreth digit in a new variable
+    int digit3 = n;      // Storing the hundredth digit in a new variable
 
     int cubeSum = (digit1 * digit1 * digit1) + (digit2 * digit2 * digit2) + (digit3 * digit3 * digit3);
 
