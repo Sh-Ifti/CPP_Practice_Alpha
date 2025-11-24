@@ -26,7 +26,7 @@ int binSearch(int *arr, int size, int key)
         {
             start = mid + 1;
         }
-        else
+        else // Search in the 1st half
         {
             end = mid - 1;
         }
