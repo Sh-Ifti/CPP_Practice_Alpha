@@ -32,7 +32,7 @@ int main()
 
     int arr[n];
 
-    cout << "Enter the elements: ";
+    cout << "Enter the elements: " << endl;
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
@@ -44,3 +44,13 @@ int main()
 
     return 0;
 }
+
+/*
+Enter the size of the array: 3
+Enter the elements:
+-1
+-2
+-3
+
+Max Subarray Sum = -1
+*/
