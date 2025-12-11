@@ -9,17 +9,20 @@ void printArray(int *arr, int n)
     }
 }
 
-void buubleSort(int *arr, int n)
+void selectionSort(int *arr, int n)
 {
     for (int i = 0; i < n - 1; i++)
     {
-        for (int j = 0; j < n - i - 1; j++)
+        int minIdx = i;
+
+        for (int j = i + 1; j < n; j++)
         {
-            if (arr[j] > arr[j + 1])
+            if (arr[j] < arr[minIdx])
             {
-                swap(arr[j], arr[j + 1]);
+                minIdx = j;
             }
         }
+        swap(arr[i], arr[minIdx]);
     }
 }
 
@@ -42,7 +45,7 @@ int main()
     cout << "Before Sort: ";
     printArray(arr, n);
 
-    buubleSort(arr, n);
+    selectionSort(arr, n);
 
     cout << "\nAfter Sort: ";
     printArray(arr, n);
