@@ -123,3 +123,11 @@ void countingSort(int *arr, int n)
         }
     }
 }
+
+/*
+Before sorting: 3, 6, 2, 1, 8, 7, 4, 5, 3, 1, 
+Bubble Sort: 8, 7, 6, 5, 4, 3, 3, 2, 1, 1, 
+Selection Sort: 8, 7, 6, 5, 4, 3, 3, 2, 1, 1, 
+Insertion Sort: 8, 7, 6, 5, 4, 3, 3, 2, 1, 1, 
+Counting Sort: 8, 7, 6, 5, 4, 3, 3, 2, 1, 1, 
+*/
