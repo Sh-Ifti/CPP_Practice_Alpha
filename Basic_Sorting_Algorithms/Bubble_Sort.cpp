@@ -9,7 +9,7 @@ void printArray(int *arr, int n)
     }
 }
 
-void buubleSort(int *arr, int n)
+void bubbleSort(int *arr, int n)
 {
     for (int i = 0; i < n - 1; i++)
     {
@@ -42,7 +42,7 @@ int main()
     cout << "Before Sort: ";
     printArray(arr, n);
 
-    buubleSort(arr, n);
+    bubbleSort(arr, n);
 
     cout << "\nAfter Sort: ";
     printArray(arr, n);
