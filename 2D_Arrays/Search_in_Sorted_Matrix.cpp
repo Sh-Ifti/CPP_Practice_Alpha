@@ -1,8 +1,7 @@
-// Brute Force Approach
-
 #include <iostream>
 using namespace std;
 
+// Brute Force Approach
 // bool searchKey(int arr[][3], int n, int key) // Time complexity: O(n^2)
 // {
 //     for (int i = 0; i < n; i++)
