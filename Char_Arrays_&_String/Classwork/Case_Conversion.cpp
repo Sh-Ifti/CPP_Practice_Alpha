@@ -45,3 +45,6 @@ int main()
     toLower(word, strlen(word));
     return 0;
 }
+
+// APPLE
+// apple
