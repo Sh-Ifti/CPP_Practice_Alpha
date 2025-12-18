@@ -21,8 +21,10 @@ bool isPalindrome(char ch[], int n)
 int main()
 {
     char word[] = "racecar";
+    char word2[] = "racer";
 
     isPalindrome(word, strlen(word));
+    isPalindrome(word2, strlen(word));
 
     return 0;
 }
