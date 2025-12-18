@@ -29,3 +29,4 @@ int main()
 
 // Before Reverse: code
 // After Reverse: edoc
+// Time Complexity: O(n)
