@@ -17,3 +17,7 @@ int main()
     cout << "length: " << strlen(sentence) << endl;
     return 0;
 }
+
+// apple*
+// Your word is a
+// length: 5
