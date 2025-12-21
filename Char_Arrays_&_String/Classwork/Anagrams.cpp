@@ -6,6 +6,7 @@ bool isAnagram(string str1, string str2)
 {
     if (str1.length() != str2.length())
     {
+        cout << "Invalid Anagram" << endl;
         return false;
     }
 
@@ -35,14 +36,18 @@ int main()
     string str2 = "nagaram";
     string str3 = "car";
     string str4 = "rat";
+    string str5 = "anaram";
 
     cout << isAnagram(str1, str2) << endl;
     cout << isAnagram(str3, str4) << endl;
+    cout << isAnagram(str1, str5) << endl;
 
     return 0;
 }
 
 // Valid Anagram
 // 1
+// Invalid Anagram
+// 0
 // Invalid Anagram
 // 0
